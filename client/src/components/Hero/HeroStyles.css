@@ -1,0 +1,23 @@
+#heroImg {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+
+.hero {
+  width: 100%;
+  object-fit: contain;
+  z-index: -1;
+}
+
+@media screen and (max-width: 800px) {
+  #heroImg {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #heroImg {
+    height: 350px;
+  }
+}

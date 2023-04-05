@@ -1,0 +1,84 @@
+.sub-featured {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  max-width: 1200px;
+}
+
+.sub-featured h3 {
+  margin-top: 0;
+}
+
+.sub-featured span {
+  font-size: 1.5rem;
+}
+
+.sub-info {
+  padding-top: 1.5rem;
+}
+
+.sub1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box,
+    url(../../assets/pizzapalat-pieni.jpg) no-repeat center center;
+  background-size: cover;
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+  filter: grayscale(20%);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+}
+
+.sub2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box,
+    url(../../assets/sijainti.png) no-repeat center center;
+  background-size: cover;
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+  filter: grayscale(20%);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+}
+
+.sub3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) border-box,
+    url(../../assets/burger-pieni.jpg) no-repeat center center;
+  background-size: cover;
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+  filter: grayscale(20%);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+}
+
+.sub3 .sub-info span {
+  font-size: 2.5rem;
+}
+
+.sub3 a {
+  outline: none;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .sub-featured {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+  }
+  .sub1 {
+    height: 140px;
+    padding: 10px;
+  }
+  .sub2 {
+    height: 140px;
+    padding: 10px;
+  }
+  .sub3 {
+    height: 140px;
+    padding: 10px;
+  }
+}
