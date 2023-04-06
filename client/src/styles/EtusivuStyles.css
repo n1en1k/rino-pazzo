@@ -1,0 +1,16 @@
+.lounaslistaRivi {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.lounaslistaRiviPaiva {
+  flex: 2;
+  padding: 10px;
+}
+
+.lounaslistaRiviRuoka {
+  flex: 3;
+  padding: 10px;
+}
